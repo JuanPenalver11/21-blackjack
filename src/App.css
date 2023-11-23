@@ -1,0 +1,56 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:600px;
+  width: 800px;
+  background-color: rgb(21, 112, 21);
+  border-radius: 10px;
+  user-select: none
+}
+
+.icon{
+  height: 100px;
+  width: auto;
+}
+
+.title-game{
+  margin-top: 20px;
+  font-size: 70px;
+}
+
+.sub-title-game{
+  margin-top: 20px;
+  font-size: 50px;
+}
+.status-phrase{
+  margin-top: 40px;
+  font-size: 30px;
+  color: gold;
+}
+
+.cards-display, .cards-sum-display{
+  margin-top: 20px;
+  font-size: 30px;
+  color: gold;
+}
+
+.btn-start{
+  margin-top: 50px;
+}
+
+.btn-new-card{
+  margin-top: 20px;
+}
+
+.btn-start, .btn-new-card{
+  height: 30px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 20px; 
+  text-align: center;
+  background-color: black;
+  color: gold;
+  cursor: pointer;
+}
+
