@@ -17,6 +17,7 @@ function App() {
    return Math.floor(Math.random()*13) + 1
   }
 
+
   function startGame (){
     setActive(prevActive =>!prevActive)
     let firstCard = getRandomCard()
@@ -43,10 +44,10 @@ function App() {
     else if (sum <= 20) {
       setMessage("Do you want to draw a new card?") 
   } else if (sum === 21) {
-    setBlackJack(!blackJack)
+    setBlackJack(blackJack => !blackJack)
       setMessage("You've got Blackjack!")
   } else {
-    setActive(!active)
+    setActive(active => !active)
       setMessage("You're out of the game!")
   }
   },[sum])
